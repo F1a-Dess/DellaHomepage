@@ -7,7 +7,9 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui"
   },
   "dependencies": {
     "@nuxt/content": "^2.7.2",
@@ -26,6 +28,8 @@
   },
   "devDependencies": {
     "@iconify-json/gridicons": "^1.2.2",
-    "@nuxtjs/google-fonts": "^3.2.0"
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@playwright/test": "^1.60.0",
+    "playwright-core": "^1.60.0"
   }
 }
