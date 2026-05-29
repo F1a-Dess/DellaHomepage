@@ -35,10 +35,10 @@ jobs:
           if [ -d "dist" ]; then cp -a dist/. out/; elif [ -d ".output/public" ]; then cp -a .output/public/. out/; else echo "No static output found" && exit 1; fi
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v4
         with:
           path: out
 
       - name: Deploy to GitHub Pages
         id: deploy
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v5
