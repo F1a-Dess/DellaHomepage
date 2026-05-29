@@ -1,0 +1,24 @@
+{
+    time: '2025-04-22T17:15:00.025Z',
+    name: 'Helena',
+    email: 'helen@gmail.com',
+    message: 'test'
+},
+{
+    time: '2025-06-09T22:40:00.076Z',
+    name: 'agus',
+    email: 'agustin@mail.co',
+    message: 'putang ina'
+},
+{
+    time: '2025-06-09T22:55:33.343Z',
+    name: 'Ananda',
+    email: 'uwuwuwuchan@gmail.com',
+    message: 'This is a test email'
+},
+{
+    time: '2025-06-09T23:08:18.447Z',
+    name: 'Tots',
+    email: 'uwuwuwuchan@gmail.com',
+    message: 'This is test massage from about us'
+},
